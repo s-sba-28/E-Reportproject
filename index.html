@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home | E-Report</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+            crossorigin="anonymous">
+        <!-- Bootstrap Icons (Required for the icons to show) -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="stylesheet" href="assets/style.css">
+        <link rel="icon" type="image/x-icon" href="assets/idnfav.ico">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg px-3 border-bottom bg-white">
+            <div class="container-fluid">
+                
+                <!-- 1. Toggler for Mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample" aria-controls="navbarsExample" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- 2. Logo / Brand -->
+                <a class="navbar-brand me-4" href="#">
+                    <img src="./assets/img/idnlogo.png" class="img-dark h-rem-7" alt="..." width="90px" />
+                </a>
+
+                <!-- 3. Right Side Elements (Feedback, Notifications, Profile) - Stays on the right for mobile & desktop -->
+                <div class="d-flex flex-row align-items-center justify-content-around gap-2 order-lg-last">
+                    <div class="navbar-nav flex-row align-items-lg-center">
+                        <a href="#" class="nav-link nav-link-icon px-2 fw-normal text-sm text-secondary">
+                            <i class="bi bi-broadcast me-1"></i>
+                            Feedback?
+                        </a>
+                        <a href="#" class="nav-link nav-link-icon px-2 position-relative text-secondary">
+                            <i class="bi bi-bell-fill"></i>
+                            <span class="position-absolute top-2 start-75 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+                        </a>
+                    </div>
+                    
+                    <div class="dropdown">
+                        <a class="d-flex gap-2 align-items-center text-decoration-none dropdown-toggle-no-caret" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <div class="avatar">
+                                <img class="rounded-circle" src="https://assets.webpixels.io/img/memoji/memoji-2.svg" alt="..." width="35px" />
+                            </div>
+                            <div class="d-none d-sm-block text-dark fw-semibold">
+                                Alexis
+                            </div>
+                            <div class="d-none d-md-block ms-md-1 text-secondary">
+                                <i class="bi bi-chevron-down text-xs"></i>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-end">
+                            <div class="dropdown-header">
+                                <span class="d-block text-xs text-muted mb-1">Signed in as:</span>
+                                <span class="d-block text-heading fw-semibold">Alexis Enache</span>
+                            </div>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i class="bi bi-house me-3"></i>Home</a>
+                            <a class="dropdown-item" href="#"><i class="bi bi-pencil me-3"></i>Edit profile</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i class="bi bi-gear me-3"></i>Settings</a>
+                            <a class="dropdown-item" href="#"><i class="bi bi-image me-3"></i>Media</a>
+                            <a class="dropdown-item" href="#"><i class="bi bi-box-arrow-up me-3"></i>Share</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#"><i class="bi bi-person me-3"></i>Login</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Collapsible Center Menu (Dashboard, Projects, Tasks, etc.) -->
+                <div class="collapse navbar-collapse" id="navbarsExample">
+                    <div class="navbar-nav flex-row flex-wrap gap-lg-3 gap-2">
+                        <a class="nav-item nav-link text-secondary" href="#" aria-current="page">
+                            <i class="bi bi-house"></i>
+                            <span class="ms-1">Home</span>
+                        </a>
+                        <a class="nav-item nav-link text-secondary" href="#">
+                            <i class="bi bi-info-circle"></i>
+                            <span class="ms-1">About</span>
+                        </a>
+                        <a class="nav-item nav-link text-secondary" href="#">
+                            <i class="bi bi-gear"></i>
+                            <span class="ms-1">Services</span>
+                        </a>
+                        <a class="nav-item nav-link text-secondary" href="#">
+                            <i class="bi bi-clock"></i>
+                            <span class="ms-1">Recent</span>
+                        </a>
+                        <a class="nav-item nav-link text-secondary" href="#">
+                            <i class="bi bi-question-circle"></i>
+                            <span class="ms-1">FAQ</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+<div class="mw-7xl mx-auto bg-body-secondary rounded px-lg-12 py-12 py-xl-20">
+        <div class="container mw-6xl">
+          <div class="d-flex gap-16 align-items-center justify-content-between">
+            <div class="col-lg-5 order-lg-1 ms-auto d-none d-lg-block">
+              <div class="bg-dark bg-opacity-25 rounded">
+                <div class="rounded shadow-soft-4 me-lg-0 position-relative overflow-hidden">
+                  <img alt="..." src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1000&amp;h=1060&amp;q=80" class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 order-md-0">
+              <span class="d-inline-block mb-6 badge badge-md border border-warning text-heading rounded-pill">
+                Live webinar with our experts </span>
+              <h1 class="ls-tight lh-xs display-3 mb-6"> Everything you need in
+                one place </h1>
+              <p class="lh-loose lead mb-10 pe-lg-16"> With the right tools you
+                can increase your productivity 10x. Wanna know how you can do
+                this? </p>
+              <div class="hstack gap-3">
+                <a href="#" class="btn btn-lg btn-primary rounded-pill border-0 shadow-sm mx-2 ps-1 py-1 pe-6">
+                  <span class="icon icon-shape text-base bg-white text-heading rounded-pill">
+                    <i class="bi bi-hand-index-thumb-fill"></i>
+                  </span>
+                  <span class="d-inline-block ms-4"> Let's get in touch </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
