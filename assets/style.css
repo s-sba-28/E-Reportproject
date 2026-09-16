@@ -22,3 +22,19 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+footer {
+    margin-top: 100px;
+    padding-bottom: 20px;
+}
+
+.footer-link {
+  color: #6c757d;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #343434; 
+}

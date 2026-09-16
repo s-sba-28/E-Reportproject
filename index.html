@@ -1,93 +1,124 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Home | E-Report</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
-      crossorigin="anonymous">
+      crossorigin="anonymous"
+    />
     <!-- Bootstrap Icons (Required for the icons to show) -->
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="assets/style.css">
-    <link rel="icon" type="image/x-icon" href="assets/img/idnfav.png">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/idnfav.png" />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg px-3 border-bottom bg-white">
       <div class="container-fluid">
-
         <!-- 1. Toggler for Mobile -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarsExample" aria-controls="navbarsExample"
-          aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample"
+          aria-controls="navbarsExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
 
         <!-- 2. Logo / Brand -->
         <a class="navbar-brand me-4" href="#">
-          <img src="./assets/img/idnlogo.png" class="img-dark h-rem-7" alt="..."
-            width="90px" />
+          <img
+            src="./assets/img/idnlogo.png"
+            class="img-dark h-rem-7"
+            alt="..."
+            width="90px"
+          />
         </a>
 
         <!-- 3. Right Side Elements (Feedback, Notifications, Profile) - Stays on the right for mobile & desktop -->
         <div
-          class="d-flex flex-row align-items-center justify-content-around gap-2 order-lg-last">
+          class="d-flex flex-row align-items-center justify-content-around gap-2 order-lg-last"
+        >
           <div class="navbar-nav flex-row align-items-lg-center">
-            <a href="#"
-              class="nav-link nav-link-icon px-2 fw-normal text-sm text-secondary">
+            <a
+              href="#"
+              class="nav-link nav-link-icon px-2 fw-normal text-sm text-secondary"
+            >
               <i class="bi bi-broadcast me-1"></i>
               Feedback?
             </a>
-            <a href="#"
-              class="nav-link nav-link-icon px-2 position-relative text-secondary">
+            <a
+              href="#"
+              class="nav-link nav-link-icon px-2 position-relative text-secondary"
+            >
               <i class="bi bi-bell-fill"></i>
               <span
-                class="position-absolute top-2 start-75 translate-middle p-1 bg-danger border border-light rounded-circle"></span>
+                class="position-absolute top-2 start-75 translate-middle p-1 bg-danger border border-light rounded-circle"
+              ></span>
             </a>
           </div>
 
           <div class="dropdown">
             <a
               class="d-flex gap-2 align-items-center text-decoration-none dropdown-toggle-no-caret"
-              href="#" role="button" data-bs-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
+              href="#"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
               <div class="avatar">
-                <img class="rounded-circle"
+                <img
+                  class="rounded-circle"
                   src="https://assets.webpixels.io/img/memoji/memoji-2.svg"
-                  alt="..." width="35px" />
+                  alt="..."
+                  width="35px"
+                />
               </div>
-              <div class="d-none d-sm-block text-dark fw-semibold">
-                Syams
-              </div>
+              <div class="d-none d-sm-block text-dark fw-semibold">Syams</div>
               <div class="d-none d-md-block ms-md-1 text-secondary">
                 <i class="bi bi-chevron-down text-xs"></i>
               </div>
             </a>
             <div class="dropdown-menu dropdown-menu-end">
               <div class="dropdown-header">
-                <span class="d-block text-xs text-muted mb-1">Signed in
-                  as:</span>
-                <span class="d-block text-heading fw-semibold">Syams
-                  Bhima</span>
+                <span class="d-block text-xs text-muted mb-1"
+                  >Signed in as:</span
+                >
+                <span class="d-block text-heading fw-semibold"
+                  >Syams Bhima</span
+                >
               </div>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"><i
-                  class="bi bi-speedometer2 me-3"></i>Dashboard</a>
-              <a class="dropdown-item" href="#"><i
-                  class="bi bi-pencil me-3"></i>Edit profile</a>
+              <a class="dropdown-item" href="#"
+                ><i class="bi bi-speedometer2 me-3"></i>Dashboard</a
+              >
+              <a class="dropdown-item" href="#"
+                ><i class="bi bi-pencil me-3"></i>Edit profile</a
+              >
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"><i
-                  class="bi bi-gear me-3"></i>Settings</a>
-              <a class="dropdown-item" href="#"><i
-                  class="bi bi-image me-3"></i>Media</a>
-              <a class="dropdown-item" href="#"><i
-                  class="bi bi-box-arrow-up me-3"></i>Share</a>
+              <a class="dropdown-item" href="#"
+                ><i class="bi bi-gear me-3"></i>Settings</a
+              >
+              <a class="dropdown-item" href="#"
+                ><i class="bi bi-image me-3"></i>Media</a
+              >
+              <a class="dropdown-item" href="#"
+                ><i class="bi bi-box-arrow-up me-3"></i>Share</a
+              >
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"><i
-                  class="bi bi-person me-3"></i>Login</a>
+              <a class="dropdown-item" href="#"
+                ><i class="bi bi-person me-3"></i>Login</a
+              >
             </div>
           </div>
         </div>
@@ -95,24 +126,27 @@
         <!-- 4. Collapsible Center Menu (Dashboard, Projects, Tasks, etc.) -->
         <div class="collapse navbar-collapse" id="navbarsExample">
           <div class="navbar-nav flex-row flex-wrap gap-lg-3 gap-2">
-            <a class="nav-item nav-link text-secondary" href="#"
-              aria-current="page">
+            <a
+              class="nav-item nav-link text-secondary"
+              href="#"
+              aria-current="page"
+            >
               <i class="bi bi-house"></i>
-              <span class="ms-1">Home</span>
+              <span class="ms-1" href="#">Home</span>
             </a>
-            <a class="nav-item nav-link text-secondary" href="#">
+            <a class="nav-item nav-link text-secondary" href="#about">
               <i class="bi bi-info-circle"></i>
               <span class="ms-1">About</span>
             </a>
-            <a class="nav-item nav-link text-secondary" href="#">
+            <a class="nav-item nav-link text-secondary" href="#features">
               <i class="bi bi-gear"></i>
               <span class="ms-1">Services</span>
             </a>
-            <a class="nav-item nav-link text-secondary" href="#">
+            <a class="nav-item nav-link text-secondary" href="#recent">
               <i class="bi bi-clock"></i>
               <span class="ms-1">Recent</span>
             </a>
-            <a class="nav-item nav-link text-secondary" href="#">
+            <a class="nav-item nav-link text-secondary" href="#faq">
               <i class="bi bi-question-circle"></i>
               <span class="ms-1">FAQ</span>
             </a>
@@ -121,33 +155,52 @@
       </div>
     </nav>
     <div
-      class="mw-7xl mx-auto bg-body-secondary rounded px-lg-12 py-12 py-xl-20">
+      class="mw-7xl mx-auto bg-body-secondary rounded px-lg-12 py-12 py-xl-20"
+    >
       <div class="container">
         <div
-          class="d-flex gap-16 align-items-center justify-content-between flex-column flex-lg-row">
+          class="d-flex gap-16 align-items-center justify-content-between flex-column flex-lg-row"
+        >
           <div class="col-lg-5 order-lg-1 ms-auto d-none d-lg-block">
             <div class="rounded">
               <div
-                class="rounded shadow-soft-4 me-lg-0 position-relative overflow-hidden">
-                <img alt="..." src="./assets/img/hero.png"
-                  class="img-fluid hero" style="width: 100%; height: auto;" />
+                class="rounded shadow-soft-4 me-lg-0 position-relative overflow-hidden"
+              >
+                <img
+                  alt="..."
+                  src="./assets/img/hero.png"
+                  class="img-fluid hero"
+                  style="width: 100%; height: auto"
+                />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 order-md-0" style="margin-top: 30px;">
+          <div class="col-lg-6 order-md-0" style="margin-top: 30px">
             <span
-              class="d-inline-block mb-6 badge badge-md border border-warning text-body rounded-pill"> Live Webinar!! </span>
-            <h1 class="ls-tight lh-xs display-3 mb-6 fw-bold"> Selamat datang di
+              class="d-inline-block mb-6 badge badge-md border border-warning text-body rounded-pill"
+            >
+              Live Webinar!!
+            </span>
+            <h1 class="ls-tight lh-xs display-3 mb-6 fw-bold">
+              Selamat datang di
               <span class="text-primary">Aplikasi IDN E-report</span> forum
-              pengaduan </h1>
-            <p class="lh-loose lead mb-10 pe-lg-16"> Website resmi aplikasi pengaduan IDN Boardingschool made by s-sba-28 </p>
-            <div class="hstack gap-3" style="margin-bottom: 30px;">
-              <a href="#"
-                class="btn btn-lg btn-outline-dark rounded-pill border-0 shadow-sm mx-0 ps-1 py-1 pe-6">
+              pengaduan
+            </h1>
+            <p class="lh-loose lead mb-10 pe-lg-16">
+              Website resmi aplikasi pengaduan IDN Boardingschool made by
+              s-sba-28
+            </p>
+            <div class="hstack gap-3" style="margin-bottom: 30px">
+              <a
+                href="#"
+                class="btn btn-lg btn-outline-dark rounded-pill border-0 shadow-sm mx-0 ps-1 py-1 pe-6"
+              >
                 <span class="d-inline-block ms-2">Tentang Kami</span>
               </a>
-              <a href="#"
-                class="btn btn-lg btn-primary rounded-pill border-0 shadow-sm mx-0 ps-1 py-1 pe-6">
+              <a
+                href="#"
+                class="btn btn-lg btn-primary rounded-pill border-0 shadow-sm mx-0 ps-1 py-1 pe-6"
+              >
                 <span class="d-inline-block ms-2">Mulai</span>
               </a>
             </div>
@@ -157,306 +210,456 @@
     </div>
 
     <!-- About -->
-    <section class="py-24 py-lg-32  overflow-clip mt-5">
+    <section class="py-24 py-lg-32 overflow-clip mt-5">
       <div class="container mw-screen-xl">
         <div class="row justify-content-center text-center mb-20">
           <div class="col-lg-7">
-            <h1 class="display-6 ls-tighter fw-bold text-primary"> Tentang Kami
+            <h1 class="display-6 ls-tighter fw-bold text-primary" id="about">
+              Tentang Kami
             </h1>
-            <p class="lead  mt-3"> With this premium component library you will
-              start building modern user interfaces faster and more consistent
-              than
-              ever before. </p>
-            <img src="./assets/img/about.jpg"
-              class="img-dark h-rem-7 mb-4 rounded" alt="..." width="60%" />
+            <p class="lead mt-3">
+              With this premium component library you will start building modern
+              user interfaces faster and more consistent than ever before.
+            </p>
+            <img
+              src="./assets/img/about.jpg"
+              class="img-dark h-rem-7 mb-4 rounded"
+              alt="..."
+              width="60%"
+            />
           </div>
         </div>
-      </section>
-      <!-- Features -->
-      <section>
-        <div class="container">
-          <div class="row">
-            <h1 class="fw-bold">Fitur-fitur Kami</h1>
-            <p class="lh-lg"> With this premium component library you will
-              start building modern user interfaces faster and more consistent
-              than
-              ever before. </p>
+      </div>
+    </section>
+    <!-- Features -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <h1 class="fw-bold" id="features">Fitur-fitur Kami</h1>
+          <p class="lh-lg">
+            With this premium component library you will start building modern
+            user interfaces faster and more consistent than ever before.
+          </p>
+        </div>
+        <div class="row p-4 p-lg-0 gap-4">
+          <div
+            class="col bg-secondary-subtle rounded p-4 border border-dark shadow"
+          >
+            <i class="bi bi-mortarboard-fill"></i>
+            <h4 class="fw-semibold">Pengaduan Akademik</h4>
+            <p>
+              With this premium component library you will start building modern
+              user interfaces faster and more consistent than ever before.
+            </p>
           </div>
-          <div class="row p-4 p-lg-0 gap-4">
-            <div
-              class="col bg-secondary-subtle rounded p-4 border border-dark shadow">
-              <i class="bi bi-mortarboard-fill"></i>
-              <h4 class="fw-semibold">Pengaduan Akademik</h4>
-              <p>With this premium component library you will start building
-                modern user interfaces faster and more consistent than ever
-                before.</p>
-            </div>
-            <div
-              class="col bg-secondary-subtle rounded p-4 border border-dark shadow">
-              <i class="bi bi-tools"></i>
-              <h4 class="fw-semibold">Pengaduan Fasilitas</h4>
-              <p>With this premium component library you will start building
-                modern user interfaces faster and more consistent than ever
-                before.</p>
-            </div>
-            <div
-              class="col bg-secondary-subtle rounded p-4 border border-dark shadow">
-              <i class="bi bi-incognito"></i>
-              <h4 class="fw-semibold">Pengaduan Anonim</h4>
-              <p>With this premium component library you will start building
-                modern user interfaces faster and more consistent than ever
-                before.</p>
-            </div>
+          <div
+            class="col bg-secondary-subtle rounded p-4 border border-dark shadow"
+          >
+            <i class="bi bi-tools"></i>
+            <h4 class="fw-semibold">Pengaduan Fasilitas</h4>
+            <p>
+              With this premium component library you will start building modern
+              user interfaces faster and more consistent than ever before.
+            </p>
           </div>
-        </section>
+          <div
+            class="col bg-secondary-subtle rounded p-4 border border-dark shadow"
+          >
+            <i class="bi bi-incognito"></i>
+            <h4 class="fw-semibold">Pengaduan Anonim</h4>
+            <p>
+              With this premium component library you will start building modern
+              user interfaces faster and more consistent than ever before.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <!-- recent reports -->
-        <section id="recent-reports" class="py-24 py-lg-32  overflow-clip mt-5">
-          <div class="container">
-            <div class="row text-end mb-5">
-              <div class="col">
-                <h1 class="display-6 ls-tighter fw-bold text-primary"> Laporan
-                  Terbaru </h1>
-                <p class="lead  mt-3"> With this premium component library you
-                  will
-                  start building modern user interfaces faster and more
-                  consistent than
-                  ever before. </p>
-                <div class="row g-4">
-                  <div class="card col-12 col-md-6 col-lg-3 mb-4">
-                    <p class="position-absolute text-white px-3 py-2 rounded"
-                      style="background-color: rgba(0, 0, 0, 0.268);">Fasilitas</p>
-                    <img style="height: 250px; object-fit: cover;"
-                      src="./assets/img/complain1.png" class="card-img-top"
-                      alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Atm gak nyampe 💀</h5>
-                      <p class="text-muted" class="mb-4">By: <a href
-                          class="text-decoration-none">John Doe</a> 9 hours
-                        ago</p>
-                      <p class="card-text">Some quick example text to build on
-                        the card title and make up the bulk of the card’s
-                        content.</p>
-                      <a href="#" class="btn btn-primary">Selengkapnya</a>
-                    </div>
-                  </div>
-                  <div class="card col-12 col-md-6 col-lg-3 mb-4">
-                    <p class="position-absolute text-white px-3 py-2 rounded"
-                      style="background-color: rgba(0, 0, 0, 0.268);">Fasilitas</p>
-                    <img style="height: 250px; object-fit: cover;"
-                      src="./assets/img/complain2.png" class="card-img-top"
-                      alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Yg buat wheelchair nyapo gini
-                        lah</h5>
-                      <p class="text-muted" class="mb-4">By: <a href
-                          class="text-decoration-none">John Doe</a> 9 hours
-                        ago</p>
-                      <p class="card-text">Some quick example text to build on
-                        the card title and make up the bulk of the card’s
-                        content.</p>
-                      <a href="#" class="btn btn-primary">Selengkapnya</a>
-                    </div>
-                  </div>
-                  <div class="card col-12 col-md-6 col-lg-3 mb-4">
-                    <p class="position-absolute text-white px-3 py-2 rounded"
-                      style="background-color: rgba(0, 0, 0, 0.268);">Fasilitas</p>
-                    <img style="height: 250px; object-fit: cover;"
-                      src="./assets/img/complain3.png" class="card-img-top"
-                      alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Gak sesuai desain</h5>
-                      <p class="text-muted" class="mb-4">By: <a href
-                          class="text-decoration-none">John Doe</a> 9 hours
-                        ago</p>
-                      <p class="card-text">Some quick example text to build on
-                        the card title and make up the bulk of the card’s
-                        content.</p>
-                      <a href="#" class="btn btn-primary">Selengkapnya</a>
-                    </div>
-                  </div>
-                  <div class="card col-12 col-md-6 col-lg-3 mb-4">
-                    <p class="position-absolute text-white px-3 py-2 rounded"
-                      style="background-color: rgba(0, 0, 0, 0.268);">Anonim</p>
-                    <img style="height: 250px; object-fit: cover;"
-                      src="./assets/img/complain4.png" class="card-img-top"
-                      alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">I gak terima digituin</h5>
-                      <p class="text-muted" class="mb-4">By: <a href
-                          class="text-decoration-none">John Doe</a> 9 hours
-                        ago</p>
-                      <p class="card-text">Some quick example text to build on
-                        the card title and make up the bulk of the card’s
-                        content.</p>
-                      <a href="#" class="btn btn-primary">Selengkapnya</a>
-                    </div>
-                  </div>
-                </div></div>
+    <!-- recent reports -->
+    <section id="recent-reports" class="py-24 py-lg-32 overflow-clip mt-5">
+      <div class="container">
+        <div class="row text-end mb-5">
+          <div class="col">
+            <h1 class="display-6 ls-tighter fw-bold text-primary" id="recent">
+              Laporan Terbaru
+            </h1>
+            <p class="lead mt-3">
+              With this premium component library you will start building modern
+              user interfaces faster and more consistent than ever before.
+            </p>
+            <div class="row g-4">
+              <div class="card col-12 col-md-6 col-lg-3 mb-4">
+                <p
+                  class="position-absolute text-white px-3 py-2 rounded"
+                  style="background-color: rgba(0, 0, 0, 0.268)"
+                >
+                  Fasilitas
+                </p>
+                <img
+                  style="height: 250px; object-fit: cover"
+                  src="./assets/img/complain1.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Atm gak nyampe 💀</h5>
+                  <p class="text-muted" class="mb-4">
+                    By: <a href class="text-decoration-none">John Doe</a> 9
+                    hours ago
+                  </p>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
+              <div class="card col-12 col-md-6 col-lg-3 mb-4">
+                <p
+                  class="position-absolute text-white px-3 py-2 rounded"
+                  style="background-color: rgba(0, 0, 0, 0.268)"
+                >
+                  Fasilitas
+                </p>
+                <img
+                  style="height: 250px; object-fit: cover"
+                  src="./assets/img/complain2.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Yg buat wheelchair nyapo gini lah</h5>
+                  <p class="text-muted" class="mb-4">
+                    By: <a href class="text-decoration-none">John Doe</a> 9
+                    hours ago
+                  </p>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
+              <div class="card col-12 col-md-6 col-lg-3 mb-4">
+                <p
+                  class="position-absolute text-white px-3 py-2 rounded"
+                  style="background-color: rgba(0, 0, 0, 0.268)"
+                >
+                  Fasilitas
+                </p>
+                <img
+                  style="height: 250px; object-fit: cover"
+                  src="./assets/img/complain3.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Gak sesuai desain</h5>
+                  <p class="text-muted" class="mb-4">
+                    By: <a href class="text-decoration-none">John Doe</a> 9
+                    hours ago
+                  </p>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
+              <div class="card col-12 col-md-6 col-lg-3 mb-4">
+                <p
+                  class="position-absolute text-white px-3 py-2 rounded"
+                  style="background-color: rgba(0, 0, 0, 0.268)"
+                >
+                  Anonim
+                </p>
+                <img
+                  style="height: 250px; object-fit: cover"
+                  src="./assets/img/complain4.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">I gak terima digituin</h5>
+                  <p class="text-muted" class="mb-4">
+                    By: <a href class="text-decoration-none">John Doe</a> 9
+                    hours ago
+                  </p>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card’s content.
+                  </p>
+                  <a href="#" class="btn btn-primary">Selengkapnya</a>
+                </div>
+              </div>
             </div>
+            <a
+              class="icon-link icon-link-hover"
+              style="--bs-link-hover-color-rgb: 25, 135, 84"
+              href="#"
+            >
+              Lihat semua laporan
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="bi"
+                viewBox="0 0 16 16"
+                aria-hidden="true"
+              >
+                <path
+                  d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                />
+              </svg>
+            </a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Faq -->
-    <section>
+    <section id="faq">
       <div class="container">
         <div class="row text-center mb-20">
           <h1 class="fw-bold text-primary">Frequently Asked Questions</h1>
-          <p class="lh-lg"> With this premium component library you will
-            start building modern user interfaces faster and more consistent
-            than
-            ever before. </p>
+          <p class="lh-lg">
+            With this premium component library you will start building modern
+            user interfaces faster and more consistent than ever before.
+          </p>
         </div>
         <div class="row g-4">
           <div class="col-md-6">
-           <div class="accordion vstack gap-2" id="faqLeft">
-      <div class="card">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#faqLeft-1"
-            aria-expanded="false"
-            aria-controls="faqLeft-1">
-            Bagaimana cara melakukan pengaduan melalui aplikasi ini?
-          </button>
-        </h2>
-        <div id="faqLeft-1" class="collapse" data-bs-parent="#faqLeft">
-          <div class="card-body">
-            <div class="vstack gap-4 text-sm">
-              Untuk melakukan pengaduan, cukup buka aplikasi, pilih kategori
-              pengaduan yang sesuai, isi formulir dengan detail masalah Anda,
-              dan kirimkan. Tim kami akan meninjau pengaduan Anda dan memberikan
-              tanggapan secepat mungkin.
-            </div>
-          </div>
-        </div>
-      </div>
+            <div class="accordion vstack gap-2" id="faqLeft">
+              <div class="card">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqLeft-1"
+                    aria-expanded="false"
+                    aria-controls="faqLeft-1"
+                  >
+                    Bagaimana cara melakukan pengaduan melalui aplikasi ini?
+                  </button>
+                </h2>
+                <div id="faqLeft-1" class="collapse" data-bs-parent="#faqLeft">
+                  <div class="card-body">
+                    <div class="vstack gap-4 text-sm">
+                      Untuk melakukan pengaduan, cukup buka aplikasi, pilih
+                      kategori pengaduan yang sesuai, isi formulir dengan detail
+                      masalah Anda, dan kirimkan. Tim kami akan meninjau
+                      pengaduan Anda dan memberikan tanggapan secepat mungkin.
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div class="card">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#faqLeft-2"
-            aria-expanded="false"
-            aria-controls="faqLeft-2">
-            Apakah aplikasi ini mudah digunakan untuk pemula?
-          </button>
-        </h2>
-        <div id="faqLeft-2" class="collapse" data-bs-parent="#faqLeft">
-          <div class="card-body">
-            <div class="vstack gap-4 text-sm">
-              Ya, aplikasi ini dirancang dengan antarmuka yang intuitif dan
-              mudah digunakan. Panduan langkah demi langkah tersedia untuk
-              membantu pengguna baru memahami cara mengajukan pengaduan dan
-              menavigasi fitur-fitur aplikasi.
-            </div>
-          </div>
-        </div>
-      </div>
+              <div class="card">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqLeft-2"
+                    aria-expanded="false"
+                    aria-controls="faqLeft-2"
+                  >
+                    Apakah aplikasi ini mudah digunakan untuk pemula?
+                  </button>
+                </h2>
+                <div id="faqLeft-2" class="collapse" data-bs-parent="#faqLeft">
+                  <div class="card-body">
+                    <div class="vstack gap-4 text-sm">
+                      Ya, aplikasi ini dirancang dengan antarmuka yang intuitif
+                      dan mudah digunakan. Panduan langkah demi langkah tersedia
+                      untuk membantu pengguna baru memahami cara mengajukan
+                      pengaduan dan menavigasi fitur-fitur aplikasi.
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div class="card">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#faqLeft-3"
-            aria-expanded="false"
-            aria-controls="faqLeft-3">
-            Bagaimana menangani pengaduan yang bersifat sensitif atau pribadi?
-          </button>
-        </h2>
-        <div id="faqLeft-3" class="collapse" data-bs-parent="#faqLeft">
-          <div class="card-body">
-            <div class="vstack gap-4 text-sm">
-              Pengaduan yang bersifat sensitif atau pribadi akan ditangani dengan ketat dan kerahasiaan. Tim kami akan memastikan bahwa informasi pribadi Anda dilindungi dan hanya digunakan untuk tujuan yang relevan dalam menangani pengaduan Anda.
+              <div class="card">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqLeft-3"
+                    aria-expanded="false"
+                    aria-controls="faqLeft-3"
+                  >
+                    Bagaimana menangani pengaduan yang bersifat sensitif atau
+                    pribadi?
+                  </button>
+                </h2>
+                <div id="faqLeft-3" class="collapse" data-bs-parent="#faqLeft">
+                  <div class="card-body">
+                    <div class="vstack gap-4 text-sm">
+                      Pengaduan yang bersifat sensitif atau pribadi akan
+                      ditangani dengan ketat dan kerahasiaan. Tim kami akan
+                      memastikan bahwa informasi pribadi Anda dilindungi dan
+                      hanya digunakan untuk tujuan yang relevan dalam menangani
+                      pengaduan Anda.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="col-md-6">
-    <div class="accordion vstack gap-2" id="faqRight">
-      <div class="card">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#faqRight-1"
-            aria-expanded="false"
-            aria-controls="faqRight-1">
-            bagaimana cara melacak status pengaduan saya?
-          </button>
-        </h2>
-        <div id="faqRight-1" class="collapse" data-bs-parent="#faqRight">
-          <div class="card-body">
-            <div class="vstack gap-4 text-sm">
-              Anda dapat melacak status pengaduan Anda dengan masuk ke akun Anda dan mengakses bagian "Riwayat Pengaduan" di dalam aplikasi. Di sana, Anda akan melihat semua pengaduan yang telah diajukan beserta status terkini mereka.
-            </div>
-          </div>
-        </div>
-      </div>
+          <div class="col-md-6">
+            <div class="accordion vstack gap-2" id="faqRight">
+              <div class="card">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqRight-1"
+                    aria-expanded="false"
+                    aria-controls="faqRight-1"
+                  >
+                    bagaimana cara melacak status pengaduan saya?
+                  </button>
+                </h2>
+                <div
+                  id="faqRight-1"
+                  class="collapse"
+                  data-bs-parent="#faqRight"
+                >
+                  <div class="card-body">
+                    <div class="vstack gap-4 text-sm">
+                      Anda dapat melacak status pengaduan Anda dengan masuk ke
+                      akun Anda dan mengakses bagian "Riwayat Pengaduan" di
+                      dalam aplikasi. Di sana, Anda akan melihat semua pengaduan
+                      yang telah diajukan beserta status terkini mereka.
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div class="card">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#faqRight-2"
-            aria-expanded="false"
-            aria-controls="faqRight-2">
-            bagaimana jika saya tidak puas dengan tanggapan yang diberikan?
-          </button>
-        </h2>
-        <div id="faqRight-2" class="collapse" data-bs-parent="#faqRight">
-          <div class="card-body">
-            <div class="vstack gap-4 text-sm">
-              Jika Anda tidak puas dengan tanggapan yang diberikan, Anda dapat mengajukan keberatan atau meminta peninjauan ulang. Tim kami akan meninjau kembali pengaduan Anda dan memberikan respons yang lebih memuaskan.
-            </div>
-          </div>
-        </div>
-      </div>
+              <div class="card">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqRight-2"
+                    aria-expanded="false"
+                    aria-controls="faqRight-2"
+                  >
+                    bagaimana jika saya tidak puas dengan tanggapan yang
+                    diberikan?
+                  </button>
+                </h2>
+                <div
+                  id="faqRight-2"
+                  class="collapse"
+                  data-bs-parent="#faqRight"
+                >
+                  <div class="card-body">
+                    <div class="vstack gap-4 text-sm">
+                      Jika Anda tidak puas dengan tanggapan yang diberikan, Anda
+                      dapat mengajukan keberatan atau meminta peninjauan ulang.
+                      Tim kami akan meninjau kembali pengaduan Anda dan
+                      memberikan respons yang lebih memuaskan.
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-      <div class="card">
-        <h2 class="accordion-header">
-          <button
-            class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#faqRight-3"
-            aria-expanded="false"
-            aria-controls="faqRight-3">
-            Untuk respon, bagaimana saya bisa mendapatkannya?
-          </button>
-        </h2>
-        <div id="faqRight-3" class="collapse" data-bs-parent="#faqRight">
-          <div class="card-body">
-            <div class="vstack gap-4 text-sm">
-              Anda akan menerima respon melalui email atau notifikasi dalam aplikasi ketika tanggapan telah tersedia.
+              <div class="card">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button py-3 fw-semibold text-sm collapsed bg-primary text-white rounded"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faqRight-3"
+                    aria-expanded="false"
+                    aria-controls="faqRight-3"
+                  >
+                    Untuk respon, bagaimana saya bisa mendapatkannya?
+                  </button>
+                </h2>
+                <div
+                  id="faqRight-3"
+                  class="collapse"
+                  data-bs-parent="#faqRight"
+                >
+                  <div class="card-body">
+                    <div class="vstack gap-4 text-sm">
+                      Anda akan menerima respon melalui email atau notifikasi
+                      dalam aplikasi ketika tanggapan telah tersedia.
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
           </div>
         </div>
       </div>
     </section>
+
+    <footer class="bg-secondary-subtle py-5">
+      <div class="container">
+        <div class="row justify-content-between row-gap-4 row-gap-sm-0">
+          <div class="col-sm-2 col-md-4">
+            <div class="d-flex align-items-center">
+              <img
+                src="./assets/img/idnlogo.png"
+                class="img-dark h-rem-7 me-3"
+                alt="..."
+                width="90"
+              />
+              <h3 class="mb-0 fw-bold">E-report</h3>
+            </div>
+            <p class="opacity-75 mt-3 lh-lg mb-0">
+              With this premium component library you will start building modern
+              user interfaces faster and more consistent than ever before.
+            </p>
+          </div>
+          <div class="col-sm-2 col-md-2 d-flex flex-column gap-2">
+            <h4 class="fw-bold">Menu</h4>
+            <a href="#" class="text-decoration-none footer-link">Home</a>
+            <a href="#about" class="text-decoration-none footer-link">About</a>
+            <a href="#features" class="text-decoration-none footer-link">Services</a>
+            <a href="#recent" class="text-decoration-none footer-link">Recent</a>
+            <a href="#faq" class="text-decoration-none footer-link">FAQ</a>
+          </div>
+          <div class="col-sm-2 col-md-4 d-flex flex-column gap-2">
+            <h4 class="fw-bold">Contact</h4>
+
+            <a
+              href="https://idn.sch.id"
+              class="text-decoration-none footer-link"
+              target="_blank"
+              ><b class="bi bi-globe"> </b>idn.sch.id</a
+            >
+            <a
+              target="_blank"
+              href="mailto:idnreport@idn.sch.id"
+              class="text-decoration-none footer-link"
+              ><b class="bi bi-envelope"> </b>idnreport@idn.sch.id</a
+            >
+
+            <a href="https://wa.me/no" class="text-decoration-none footer-link" target="_blank"
+              ><b class="bi bi-telephone"> </b
+              >+62-123-456-789-012345567868543902erjhgurebvbshj</a
+            >
+            <a href="https://maps.app.goo.gl/AaXdRiLFjvCo9adEA" class="text-decoration-none footer-link" target="_blank"
+              ><b class="bi bi-geo-alt"> </b>67 Nowhere Rd, Charleston, WV 25314, USA</a
+            >
+          </div>
+        </div>
+        <p class="text-center text-muted mb-0" style="margin-top: 100px">
+          &copy; 2026 Syams Bhima A. All rights reserved.</p>
+      </div>
+    </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
