@@ -10,6 +10,11 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- Bootstrap Icons (Required for the icons to show) -->
     <link
       rel="stylesheet"
@@ -19,7 +24,9 @@
     <link rel="icon" type="image/x-icon" href="assets/img/idnfav.png" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg px-3 border-bottom bg-white">
+    <nav
+      class="animate__flip animate__animated navbar navbar-expand-lg px-3 border-bottom bg-white"
+    >
       <div class="container-fluid">
         <!-- 1. Toggler for Mobile -->
         <button
@@ -65,61 +72,6 @@
                 class="position-absolute top-2 start-75 translate-middle p-1 bg-danger border border-light rounded-circle"
               ></span>
             </a>
-          </div>
-
-          <div class="dropdown">
-            <a
-              class="d-flex gap-2 align-items-center text-decoration-none dropdown-toggle-no-caret"
-              href="#"
-              role="button"
-              data-bs-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              <div class="avatar">
-                <img
-                  class="rounded-circle"
-                  src="https://assets.webpixels.io/img/memoji/memoji-2.svg"
-                  alt="..."
-                  width="35px"
-                />
-              </div>
-              <div class="d-none d-sm-block text-dark fw-semibold">Syams</div>
-              <div class="d-none d-md-block ms-md-1 text-secondary">
-                <i class="bi bi-chevron-down text-xs"></i>
-              </div>
-            </a>
-            <div class="dropdown-menu dropdown-menu-end">
-              <div class="dropdown-header">
-                <span class="d-block text-xs text-muted mb-1"
-                  >Signed in as:</span
-                >
-                <span class="d-block text-heading fw-semibold"
-                  >Syams Bhima</span
-                >
-              </div>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"
-                ><i class="bi bi-speedometer2 me-3"></i>Dashboard</a
-              >
-              <a class="dropdown-item" href="#"
-                ><i class="bi bi-pencil me-3"></i>Edit profile</a
-              >
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"
-                ><i class="bi bi-gear me-3"></i>Settings</a
-              >
-              <a class="dropdown-item" href="#"
-                ><i class="bi bi-image me-3"></i>Media</a
-              >
-              <a class="dropdown-item" href="#"
-                ><i class="bi bi-box-arrow-up me-3"></i>Share</a
-              >
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#"
-                ><i class="bi bi-person me-3"></i>Login</a
-              >
-            </div>
           </div>
         </div>
 
@@ -169,17 +121,20 @@
                 <img
                   alt="..."
                   src="./assets/img/hero.png"
-                  class="img-fluid hero"
+                  class="img-fluid hero animate__rotateInDownRight animate__animated animate__delay-1s"
                   style="width: 100%; height: auto"
                 />
               </div>
             </div>
           </div>
-          <div class="col-lg-6 order-md-0" style="margin-top: 30px">
+          <div
+            class="animate__rotateInDownLeft animate__animated animate__delay-1s col-lg-6 order-md-0"
+            style="margin-top: 30px"
+          >
             <span
               class="d-inline-block mb-6 badge badge-md border border-warning text-body rounded-pill"
             >
-              Live Webinar!!
+              eaa jumpscare nav
             </span>
             <h1 class="ls-tight lh-xs display-3 mb-6 fw-bold">
               Selamat datang di
@@ -210,20 +165,25 @@
     </div>
 
     <!-- About -->
-    <section class="py-24 py-lg-32 overflow-clip mt-5">
+    <section class="py-24 py-lg-32 overflow-hidden mt-5">
       <div class="container mw-screen-xl">
         <div class="row justify-content-center text-center mb-20">
           <div class="col-lg-7">
-            <h1 class="display-6 ls-tighter fw-bold text-primary" id="about">
+            <h1
+              class="display-6 ls-tighter fw-bold text-primary"
+              data-aos="fade-up"
+            >
               Tentang Kami
             </h1>
-            <p class="lead mt-3">
+            <p class="lead mt-3" data-aos="fade-up" data-aos-delay="100">
               With this premium component library you will start building modern
               user interfaces faster and more consistent than ever before.
             </p>
             <img
               src="./assets/img/about.jpg"
               class="img-dark h-rem-7 mb-4 rounded"
+              data-aos="fade-up"
+              data-aos-delay="200"
               alt="..."
               width="60%"
             />
@@ -235,8 +195,10 @@
     <section>
       <div class="container">
         <div class="row">
-          <h1 class="fw-bold" id="features">Fitur-fitur Kami</h1>
-          <p class="lh-lg">
+          <h1 class="fw-bold" id="features" data-aos="fade-right">
+            Fitur-fitur Kami
+          </h1>
+          <p class="lh-lg" data-aos="fade-right" data-aos-delay="100">
             With this premium component library you will start building modern
             user interfaces faster and more consistent than ever before.
           </p>
@@ -244,6 +206,8 @@
         <div class="row p-4 p-lg-0 gap-4">
           <div
             class="col bg-secondary-subtle rounded p-4 border border-dark shadow"
+            data-aos="fade-up-left"
+            data-aos-delay="200"
           >
             <i class="bi bi-mortarboard-fill"></i>
             <h4 class="fw-semibold">Pengaduan Akademik</h4>
@@ -254,6 +218,8 @@
           </div>
           <div
             class="col bg-secondary-subtle rounded p-4 border border-dark shadow"
+            data-aos="fade-up"
+            data-aos-delay="300"
           >
             <i class="bi bi-tools"></i>
             <h4 class="fw-semibold">Pengaduan Fasilitas</h4>
@@ -264,6 +230,8 @@
           </div>
           <div
             class="col bg-secondary-subtle rounded p-4 border border-dark shadow"
+            data-aos="fade-up-right"
+            data-aos-delay="400"
           >
             <i class="bi bi-incognito"></i>
             <h4 class="fw-semibold">Pengaduan Anonim</h4>
@@ -277,19 +245,27 @@
     </section>
 
     <!-- recent reports -->
-    <section id="recent-reports" class="py-24 py-lg-32 overflow-clip mt-5">
+    <section id="recent-reports" class="py-24 py-lg-32 overflow-hidden mt-5">
       <div class="container">
         <div class="row text-end mb-5">
           <div class="col">
-            <h1 class="display-6 ls-tighter fw-bold text-primary" id="recent">
+            <h1
+              class="display-6 ls-tighter fw-bold text-primary overflow-hidden"
+              id="recent"
+              data-aos="fade-left"
+            >
               Laporan Terbaru
             </h1>
-            <p class="lead mt-3">
+            <p class="lead mt-3 overflow-hidden" data-aos="fade-left" data-aos-delay="100">
               With this premium component library you will start building modern
               user interfaces faster and more consistent than ever before.
             </p>
             <div class="row g-4">
-              <div class="card col-12 col-md-6 col-lg-3 mb-4">
+              <div
+                class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden"
+                data-aos="zoom-out-up"
+                data-aos-delay="100"
+              >
                 <p
                   class="position-absolute text-white px-3 py-2 rounded"
                   style="background-color: rgba(0, 0, 0, 0.268)"
@@ -315,7 +291,11 @@
                   <a href="#" class="btn btn-primary">Selengkapnya</a>
                 </div>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3 mb-4">
+              <div
+                class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden"
+                data-aos="zoom-out-up"
+                data-aos-delay="200"
+              >
                 <p
                   class="position-absolute text-white px-3 py-2 rounded"
                   style="background-color: rgba(0, 0, 0, 0.268)"
@@ -341,7 +321,11 @@
                   <a href="#" class="btn btn-primary">Selengkapnya</a>
                 </div>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3 mb-4">
+              <div
+                class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden"
+                data-aos="zoom-out-up"
+                data-aos-delay="300"
+              >
                 <p
                   class="position-absolute text-white px-3 py-2 rounded"
                   style="background-color: rgba(0, 0, 0, 0.268)"
@@ -367,7 +351,11 @@
                   <a href="#" class="btn btn-primary">Selengkapnya</a>
                 </div>
               </div>
-              <div class="card col-12 col-md-6 col-lg-3 mb-4">
+              <div
+                class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden"
+                data-aos="zoom-out-up"
+                data-aos-delay="400"
+              >
                 <p
                   class="position-absolute text-white px-3 py-2 rounded"
                   style="background-color: rgba(0, 0, 0, 0.268)"
@@ -398,6 +386,7 @@
               class="icon-link icon-link-hover"
               style="--bs-link-hover-color-rgb: 25, 135, 84"
               href="#"
+              data-aos="fade-right"
             >
               Lihat semua laporan
               <svg
@@ -420,13 +409,15 @@
     <section id="faq">
       <div class="container">
         <div class="row text-center mb-20">
-          <h1 class="fw-bold text-primary">Frequently Asked Questions</h1>
-          <p class="lh-lg">
+          <h1 class="fw-bold text-primary" data-aos="fade-up">
+            Frequently Asked Questions
+          </h1>
+          <p class="lh-lg" data-aos="fade-up" data-aos-delay="100">
             With this premium component library you will start building modern
             user interfaces faster and more consistent than ever before.
           </p>
         </div>
-        <div class="row g-4">
+        <div class="row g-4" data-aos="fade-up" data-aos-delay="200">
           <div class="col-md-6">
             <div class="accordion vstack gap-2" id="faqLeft">
               <div class="card">
@@ -623,8 +614,12 @@
             <h4 class="fw-bold">Menu</h4>
             <a href="#" class="text-decoration-none footer-link">Home</a>
             <a href="#about" class="text-decoration-none footer-link">About</a>
-            <a href="#features" class="text-decoration-none footer-link">Services</a>
-            <a href="#recent" class="text-decoration-none footer-link">Recent</a>
+            <a href="#features" class="text-decoration-none footer-link"
+              >Services</a
+            >
+            <a href="#recent" class="text-decoration-none footer-link"
+              >Recent</a
+            >
             <a href="#faq" class="text-decoration-none footer-link">FAQ</a>
           </div>
           <div class="col-sm-2 col-md-4 d-flex flex-column gap-2">
@@ -643,17 +638,25 @@
               ><b class="bi bi-envelope"> </b>idnreport@idn.sch.id</a
             >
 
-            <a href="https://wa.me/no" class="text-decoration-none footer-link" target="_blank"
+            <a
+              href="https://wa.me/no"
+              class="text-decoration-none footer-link"
+              target="_blank"
               ><b class="bi bi-telephone"> </b
               >+62-123-456-789-012345567868543902erjhgurebvbshj</a
             >
-            <a href="https://maps.app.goo.gl/AaXdRiLFjvCo9adEA" class="text-decoration-none footer-link" target="_blank"
-              ><b class="bi bi-geo-alt"> </b>67 Nowhere Rd, Charleston, WV 25314, USA</a
+            <a
+              href="https://maps.app.goo.gl/AaXdRiLFjvCo9adEA"
+              class="text-decoration-none footer-link"
+              target="_blank"
+              ><b class="bi bi-geo-alt"> </b>67 Nowhere Rd, Charleston, WV
+              25314, USA</a
             >
           </div>
         </div>
         <p class="text-center text-muted mb-0" style="margin-top: 100px">
-          &copy; 2026 Syams Bhima A. All rights reserved.</p>
+          &copy; 2026 Syams Bhima A. All rights reserved.
+        </p>
       </div>
     </footer>
     <script
@@ -661,5 +664,9 @@
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
