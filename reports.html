@@ -1,0 +1,985 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home | E-Report</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Bootstrap Icons (Required for the icons to show) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/idnfav.png" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg px-3 border-bottom bg-white">
+      <div class="container-fluid">
+        <!-- 1. Toggler for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample"
+          aria-controls="navbarsExample"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- 2. Logo / Brand -->
+        <a class="navbar-brand me-4" href="index.html">
+          <img
+            src="./assets/img/idnlogo.png"
+            class="img-dark h-rem-7"
+            alt="..."
+            width="90px"
+          />
+        </a>
+
+        <!-- 3. Right Side Elements (Feedback, Notifications, Profile) - Stays on the right for mobile & desktop -->
+        <div
+          class="d-flex flex-row align-items-center justify-content-around gap-2 order-lg-last"
+        >
+          <div class="navbar-nav flex-row align-items-lg-center">
+            <a
+              href="#"
+              class="nav-link nav-link-icon px-2 fw-normal text-sm text-secondary"
+            >
+              <i class="bi bi-broadcast me-1"></i>
+              <span class="d-none d-sm-inline">Feedback?</span>
+            </a>
+            <a
+              href="#"
+              class="nav-link nav-link-icon px-2 position-relative text-secondary"
+            >
+              <i class="bi bi-bell-fill"></i>
+              <span
+                class="position-absolute top-2 start-75 translate-middle p-1 bg-danger border border-light rounded-circle"
+              ></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Collapsible Center Menu (Dashboard, Projects, Tasks, etc.) -->
+        <div class="collapse navbar-collapse" id="navbarsExample">
+          <div class="navbar-nav flex-row flex-wrap gap-lg-3 gap-2">
+            <a
+              class="nav-item nav-link text-secondary"
+              href="index.html"
+              aria-current="page"
+            >
+              <i class="bi bi-house"></i>
+              <span class="ms-1" href="index.html#">Home</span>
+            </a>
+            <a class="nav-item nav-link text-secondary" href="index.html#about">
+              <i class="bi bi-info-circle"></i>
+              <span class="ms-1">About</span>
+            </a>
+            <a class="nav-item nav-link text-secondary" href="index.html#features">
+              <i class="bi bi-gear"></i>
+              <span class="ms-1">Services</span>
+            </a>
+            <a class="nav-item nav-link text-secondary" href="index.html#recent">
+              <i class="bi bi-clock"></i>
+              <span class="ms-1">Recent</span>
+            </a>
+            <a class="nav-item nav-link text-secondary" href="index.html#faq">
+              <i class="bi bi-question-circle"></i>
+              <span class="ms-1">FAQ</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br /><br />
+    <!-- reports -->
+    <section id="reports">
+      <div class="container">
+        <!-- header -->
+        <div class="text-center">
+          <h1 class="fw-bold text-primary-emphasis">Semua Laporan</h1>
+          <p class="text-muted lh-lg">
+            With this premium component library you will start building modern
+            user interfaces faster and more consistent than ever before.
+          </p>
+        </div>
+        <!-- Search + filters -->
+        <div class="row mt-5 gap-md-0 gap-3">
+          <div class="col-md-5">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Search reports..."
+            />
+          </div>
+          <div class="col-md-3">
+            <select class="form-select">
+              <option value="">Filter Kategori</option>
+              <option value="">Akademik</option>
+              <option value="">Fasilitas</option>
+              <option value="">Anonim</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <select class="form-select">
+              <option value="">Urutan</option>
+              <option value="">Terpopuler</option>
+              <option value="">Terbaru</option>
+              <option value="">Terlama</option>
+            </select>
+          </div>
+          <div class="col-md-1">
+            <button type="button" class="btn btn-primary w-100">
+              <i class="bi bi-funnel-fill"></i> Filter
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row g-4 mt-5">
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atm gak nyampe 💀</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yg buat wheelchair nyapo gini lah</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gak sesuai desain</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Anonim
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain4.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">I gak terima digituin</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atm gak nyampe 💀</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yg buat wheelchair nyapo gini lah</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gak sesuai desain</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Anonim
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain4.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">I gak terima digituin</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atm gak nyampe 💀</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yg buat wheelchair nyapo gini lah</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gak sesuai desain</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Anonim
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain4.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">I gak terima digituin</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atm gak nyampe 💀</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yg buat wheelchair nyapo gini lah</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gak sesuai desain</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Anonim
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain4.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">I gak terima digituin</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atm gak nyampe 💀</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yg buat wheelchair nyapo gini lah</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gak sesuai desain</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Anonim
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain4.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">I gak terima digituin</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atm gak nyampe 💀</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yg buat wheelchair nyapo gini lah</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gak sesuai desain</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Anonim
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain4.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">I gak terima digituin</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain1.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Atm gak nyampe 💀</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain2.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Yg buat wheelchair nyapo gini lah</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Fasilitas
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain3.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Gak sesuai desain</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+          <div class="card col-12 col-md-6 col-lg-3 mb-4 overflow-hidden">
+            <p
+              class="position-absolute text-white px-3 py-2 rounded"
+              style="background-color: rgba(0, 0, 0, 0.268)"
+            >
+              Anonim
+            </p>
+            <img
+              style="height: 250px; object-fit: cover"
+              src="./assets/img/complain4.png"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">I gak terima digituin</h5>
+              <p class="text-muted" class="mb-4">
+                By: <a href class="text-decoration-none">John Doe</a> 9 hours
+                ago
+              </p>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card’s content.
+              </p>
+              <a href="#" class="btn btn-primary">Selengkapnya</a>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link disabled">Previous</a>
+            </li>
+            <li class="page-item active"><a class="page-link">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <footer class="bg-secondary-subtle py-5">
+      <div class="container">
+        <div class="row justify-content-between row-gap-4 row-gap-sm-0">
+          <div class="col-sm-2 col-md-4">
+            <div class="d-flex align-items-center">
+              <img
+                src="./assets/img/idnlogo.png"
+                class="img-dark h-rem-7 me-3"
+                alt="..."
+                width="90"
+              />
+              <h3 class="mb-0 fw-bold">E-report</h3>
+            </div>
+            <p class="opacity-75 mt-3 lh-lg mb-0">
+              With this premium component library you will start building modern
+              user interfaces faster and more consistent than ever before.
+            </p>
+          </div>
+          <div class="col-sm-2 col-md-2 d-flex flex-column gap-2">
+            <h4 class="fw-bold">Menu</h4>
+            <a href="index.html#" class="text-decoration-none footer-link">Home</a>
+            <a href="index.html#about" class="text-decoration-none footer-link">About</a>
+            <a href="index.html#features" class="text-decoration-none footer-link"
+              >Services</a
+            >
+            <a href="index.html#recent" class="text-decoration-none footer-link"
+              >Recent</a
+            >
+            <a href="index.html#faq" class="text-decoration-none footer-link">FAQ</a>
+          </div>
+          <div class="col-sm-2 col-md-4 d-flex flex-column gap-2">
+            <h4 class="fw-bold">Contact</h4>
+
+            <a
+              href="https://idn.sch.id"
+              class="text-decoration-none footer-link"
+              target="_blank"
+              ><b class="bi bi-globe"> </b>idn.sch.id</a
+            >
+            <a
+              target="_blank"
+              href="mailto:idnreport@idn.sch.id"
+              class="text-decoration-none footer-link"
+              ><b class="bi bi-envelope"> </b>idnreport@idn.sch.id</a
+            >
+
+            <a
+              href="https://wa.me/no"
+              class="text-decoration-none footer-link"
+              target="_blank"
+              ><b class="bi bi-telephone"> </b
+              >+62-123-456-789-012345567868543902erjhgurebvbshj</a
+            >
+            <a
+              href="https://maps.app.goo.gl/AaXdRiLFjvCo9adEA"
+              class="text-decoration-none footer-link"
+              target="_blank"
+              ><b class="bi bi-geo-alt"> </b>67 Nowhere Rd, Charleston, WV
+              25314, USA</a
+            >
+          </div>
+        </div>
+        <p class="text-center text-muted mb-0" style="margin-top: 100px">
+          &copy; 2026 Syams Bhima A. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
