@@ -1,0 +1,236 @@
+﻿<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Panduan | E-Report IDN</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- Bootstrap Icons (Required for the icons to show) -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="icon" type="image/x-icon" href="assets/img/idnfav.png" />
+  </head>
+  <body>
+    <nav
+      class="animate__flip animate__animated navbar navbar-expand-lg px-3 border-bottom bg-white"
+    >
+      <div class="container-fluid">
+        <!-- 1. Toggler for Mobile -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsExample"
+          aria-controls="navbarsExample"
+          aria-expanded="false"
+          aria-label="Buka atau tutup navigasi"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- 2. Logo / Brand -->
+        <a class="navbar-brand me-4" href="index.html">
+          <img
+            src="./assets/img/idnlogo.png"
+            class="img-dark h-rem-7"
+            alt="Logo E-Report IDN"
+            width="90px"
+          />
+        </a>
+
+        <!-- 3. Right Side Elements (Feedback, Notifications, Profile) - Stays on the right for mobile & desktop -->
+        <div
+          class="d-flex flex-row align-items-center justify-content-around gap-2 order-lg-last"
+        >
+          <div class="navbar-nav flex-row align-items-lg-center">
+            <a
+              href="guide.html"
+              class="nav-link nav-link-icon px-2 fw-normal text-sm text-secondary"
+            >
+              <i class="bi bi-broadcast me-1"></i>
+              <span class="d-none d-sm-inline">Kasih Masukan</span>
+            </a>
+            <a
+              href="guide.html"
+              class="nav-link nav-link-icon px-2 position-relative text-secondary"
+            >
+              <i class="bi bi-bell-fill"></i>
+              <span
+                class="position-absolute top-2 start-75 translate-middle p-1 bg-danger border border-light rounded-circle"
+              ></span>
+            </a>
+          </div>
+        </div>
+
+        <!-- 4. Collapsible Center Menu (Dashboard, Projects, Tasks, etc.) -->
+        <div class="collapse navbar-collapse" id="navbarsExample">
+          <div class="navbar-nav flex-row flex-wrap gap-lg-3 gap-2">
+            <a
+              class="nav-item nav-link text-secondary"
+              href="index.html"
+              aria-current="page"
+            >
+              <i class="bi bi-house"></i>
+              <span class="ms-1">Beranda</span>
+            </a>
+            <a class="nav-item nav-link text-secondary" href="index.html#about">
+              <i class="bi bi-info-circle"></i>
+              <span class="ms-1">Tentang Kami</span>
+            </a>
+            <a class="nav-item nav-link text-secondary" href="index.html#features">
+              <i class="bi bi-gear"></i>
+              <span class="ms-1">Layanan</span>
+            </a>
+            <a class="nav-item nav-link text-secondary" href="index.html#recent">
+              <i class="bi bi-clock"></i>
+              <span class="ms-1">Terbaru</span>
+            </a>
+            <a class="nav-item nav-link text-secondary" href="index.html#faq">
+              <i class="bi bi-question-circle"></i>
+              <span class="ms-1">Tanya-Jawab</span>
+            </a>
+            <a class="nav-item nav-link text-secondary" href="index.htmlguide.html">
+              <i class="bi bi-journal-text"></i>
+              <span class="ms-1">Panduan</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About -->
+    <section class="py-24 py-lg-32 overflow-hidden mt-5" id="about">
+      <div class="container mw-screen-xl">
+        <div class="row justify-content-center text-center mb-20">
+          <div class="col-lg-7">
+            <h1
+              class="display-6 ls-tighter fw-bold text-primary"
+              data-aos="fade-up"
+            >
+              Panduan membuat laporan (biar tidak tersesat)
+            </h1>
+            <p class="lead mt-3" data-aos="fade-up" data-aos-delay="100">
+              Pertama, buka halaman semua laporan, bisa dengan klik <b>mulai</b> di awal halaman atau <b>lihat semua laporan</b> di section laporan terbaru.
+            </p>
+            <img
+              src="./assets/img/guide1.gif"
+              class="img-dark h-rem-7 mb-4 rounded"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              alt="Logo E-Report IDN"
+              width="100%"
+            />
+          </div>
+        </div>
+        <div class="row justify-content-center text-center mb-20">
+          <div class="col-lg-7">
+            <p class="lead mt-3" data-aos="fade-up" data-aos-delay="100">
+              Di halaman laporan, klik <b>Buat laporan</b> kemudian
+              <b>isi sesuai kebutuhan</b>. Huruf kapital boleh, asal bukan
+              karena panik.
+            </p>
+            <img
+              src="./assets/img/guide2.gif"
+              class="img-dark h-rem-7 mb-4 rounded"
+              data-aos="fade-up"
+              data-aos-delay="200"
+              alt="Contoh langkah membuat laporan"
+              width="100%"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-secondary-subtle py-5">
+      <div class="container">
+        <div class="row justify-content-between row-gap-4 row-gap-sm-0">
+          <div class="col-sm-2 col-md-4">
+            <div class="d-flex align-items-center">
+              <img
+                src="./assets/img/idnlogo.png"
+                class="img-dark h-rem-7 me-3"
+                alt="Logo E-Report IDN"
+                width="90"
+              />
+              <h3 class="mb-0 fw-bold">E-report</h3>
+            </div>
+            <p class="opacity-75 mt-3 lh-lg mb-0">
+              Ikuti langkahnya pelan-pelan. Kalau masih bingung, tarik napas
+              dulu, jangan langsung menyalahkan tombolnya.
+            </p>
+          </div>
+          <div class="col-sm-2 col-md-2 d-flex flex-column gap-2">
+            <h4 class="fw-bold">Menu</h4>
+            <a href="index.html" class="text-decoration-none footer-link">Beranda</a>
+            <a href="#about" class="text-decoration-none footer-link">Tentang Kami</a>
+            <a href="#features" class="text-decoration-none footer-link"
+              >Layanan</a
+            >
+            <a href="#recent" class="text-decoration-none footer-link"
+              >Terbaru</a
+            >
+            <a href="#faq" class="text-decoration-none footer-link">Tanya-Jawab</a>
+            <a href="guide.html" class="text-decoration-none footer-link">Panduan</a>
+          </div>
+          <div class="col-sm-2 col-md-4 d-flex flex-column gap-2">
+            <h4 class="fw-bold">Kontak</h4>
+
+            <a
+              href="https://idn.sch.id"
+              class="text-decoration-none footer-link"
+              target="_blank"
+              ><b class="bi bi-globe"> </b>idn.sch.id</a
+            >
+            <a
+              target="_blank"
+              href="mailto:idnreport@idn.sch.id"
+              class="text-decoration-none footer-link"
+              ><b class="bi bi-envelope"> </b>idnreport@idn.sch.id</a
+            >
+
+            <a
+              href="https://wa.me/no"
+              class="text-decoration-none footer-link"
+              target="_blank"
+              ><b class="bi bi-telephone"> </b
+              >+62-123-456-789-012345567868543902erjhgurebvbshj</a
+            >
+            <a
+              href="https://maps.app.goo.gl/AaXdRiLFjvCo9adEA"
+              class="text-decoration-none footer-link"
+              target="_blank"
+              ><b class="bi bi-geo-alt"> </b>67 Nowhere Rd, Charleston, WV
+              25314, USA</a
+            >
+          </div>
+        </div>
+        <p class="text-center text-muted mb-0" style="margin-top: 100px">
+          &copy; 2026 Syams Bhima A. All rights reserved.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
